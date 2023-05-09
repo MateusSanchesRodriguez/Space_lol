@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Space LOL</title>
+</head>
+<body>
+    <header class="navbar navbar-expand-lg sticky-top p-4" id="cabecalho">
+        <div class="container">
+            <h1 class="navbar-brand m-0">Space LOL</h1>
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu-navegacao">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <nav class="navbar-collapse collapse justify-content-end" id="menu-navegacao">
+                <ul class="nav nav-pills d-block d-md-flex">
+                    <li class="nav-item fw-bold">
+                        <a class="nav-link" onclick="fecharMenuHamburguer()" href="#sobre-space-lol">
+                            <i class="bi bi-card-text me-1"></i>
+                            Sobre o Space LOL</a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a class="nav-link" onclick="fecharMenuHamburguer()" href="#novas-skins">Novas Skins</a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a class="nav-link" onclick="fecharMenuHamburguer()" href="#campeoes">Campeões</a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a class="nav-link" onclick="fecharMenuHamburguer()" href="#fale-conosco">
+                            <i class="bi bi-chat-left-text me-1"></i>
+                            Fale conosco</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div data-bs-spy="scroll" data-bs-target="cabecalho" data-bs-smooth-scroll="true">
+        <section id="sobre-space-lol" class="style-sections-title">
+            <div id="primeiro-carousel" class="carousel slide" data-bs-ride="carousel">
+                <ol class="carousel-indicators list-unstyled">
+                    <li data-bs-target="#primeiro-carousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="First slide"></li>
+                    <li data-bs-target="#primeiro-carousel" data-bs-slide-to="1" aria-label="Second slide"></li>
+                    <li data-bs-target="#primeiro-carousel" data-bs-slide-to="2" aria-label="Third slide"></li>
+                </ol>
+                <div class="carousel-inner" role="listbox">
+                    <div class="carousel-item active">
+                        <img src="imagens/lol-game-league-of-legends-riven-league-of-legends-hd-wallpaper-preview.jpg" class="w-100 d-block" alt="First slide">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="imagens/League-of-Legends-Wallpaper-Full-HD-1920x1080.webp" class="w-100 d-block" alt="Second slide">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="imagens/League-of-Legends-KeyArt-com-Campeões-Wallpaper-Full-HD.webp" class="w-100 d-block" alt="Third slide">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#primeiro-carousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#primeiro-carousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                </button>
+            </div>
+            <div class="pt-4">
+                <div class="container text-center">
+                    <div class="row justify-content-center align-items-center g-2">
+                        <div class="col-md-12">
+                            <h2 class="pb-2">Sobre o <span>Space LOL</span></h2>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis, fuga corporis explicabo hic quos 
+                                provident praesentium. Quis qui eaque ut! Nesciunt recusandae sed architecto minus maxime saepe 
+                                repudiandae similique. Ab consequuntur iste ratione odio reprehenderit. Delectus optio officia et 
+                                doloribus dicta odit explicabo officiis dolores unde magni, ad corrupti debitis, fugiat ipsam ipsum 
+                                eligendi reiciendis suscipit temporibus, quisquam minima impedit.</p>
+                            <h3 class="pb-2">Para que serve o <span>Space LOL</span></h3>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis, fuga corporis explicabo hic quos 
+                                provident praesentium. Quis qui eaque ut! Nesciunt recusandae sed architecto minus maxime saepe 
+                                repudiandae similique. Ab consequuntur iste ratione odio reprehenderit. Delectus optio officia et.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="novas-skins" class="style-sections-title pt-5 pb-5">
+            <div class="container">
+                <div class="row mb-3">
+                    <h2 class="text-center">Novas <span>Skins</span></h2>
+                </div>
+                <div class="row ">
+                    <div class="col-md-4">
+                        <img src="imagens/skins/050223_Inkshadow_Volibear_Splash.jpg" alt="" class="w-100 d-block rounded mb-3">
+                        <h3 class="text-center">Inkshadow Volibear</h3>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="imagens/skins/050223_Inkshadow_Yone_Splash.jpg" alt="" class="w-100 d-block rounded mb-3">
+                        <h3 class="text-center">Inkshadow Yone</h3>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="imagens/skins/050223_Prestige_Inkshadow_Yasuo_Splash.jpg" alt="" class="w-100 d-block rounded mb-3">
+                        <h3 class="text-center">Prestige Inkshadow Yasuo</h3>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="campeoes" class="style-sections-title pt-5 pb-5">
+            <div class="container">
+                <div class="row mb-4">
+                    <h2 class="text-center"><span>Campeões</span></h2>
+                </div>
+                <div class="row">
+                    <aside class="col-md-2">
+                        <nav class="nav nav-pills flex-column nav-campeoes">
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#assassino" class="nav-link active">Assassino</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#atirador" class="nav-link">Atirador</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#suport" class="nav-link">Controlador ou Suporte</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#lutador" class="nav-link">Lutador</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#mago" class="nav-link">Mago</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#tanque" class="nav-link">Tanque</button>
+                        </nav>
+                    </aside>
+                    <div class="col-md-10">
+                        <div class="tab-content">
+                            <div class="tab-pane active" id="assassino">
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <img src="imagens/Campeos/111629-01-full-1.jpg" class="w-100 d-block" alt="assassinos">
+                                        <h2 class="text-center pt-3">ZED / AKALI / KATARINA</h2>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="atirador">
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <img src="imagens/Campeos/111630-04-full-1.jpg" class="w-100 d-block" alt="atirador">
+                                        <h2 class="text-center pt-3">ASHE / CAITLYN / DRAVEN</h2>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="suport">
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <img src="imagens/Campeos/111632-05-full-1.jpg" class="w-100 d-block" alt="suport">
+                                        <h2 class="text-center pt-3">NAMI / ZYRA / ORIANNA</h2>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="lutador">
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <img src="imagens/Campeos/111636-03-full-1.jpg" class="w-100 d-block" alt="lutador">
+                                        <h2 class="text-center pt-3">DARIUS / RENEKTON / AATROX</h2>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="mago">
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <img src="imagens/Campeos/111637-02-full-1.jpg" class="w-100 d-block" alt="mago">
+                                        <h2 class="text-center pt-3">AHRI / ZIGGS / VEIGAR</h2>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="tanque">
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <img src="imagens/Campeos/111638-06-full-1.jpg" class="w-100 d-block" alt="tanque">
+                                        <h2 class="text-center pt-3">MALPHITE / LEONA / RAMMUS </h2>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="fale-conosco" class="style-sections-title pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="text-center">Fale <span>conosco</span></h2>
+                </div>
+                <div class="row">
+                    <div class="col-md-7">
+                        <form>
+                            <div class="mb-3 mt-3">
+                                <label for="nome" class="form-label ">Nome Completo</label>
+                                <input type="text" class="form-control" required id="nome">
+                            </div>
+                            <div class="mb-3">
+                                <label for="email" class="form-label">Email</label>
+                                <input type="email" class="form-control" required id="email">
+                            </div>
+                            <div class="mb-3">
+                                <label for="telefone" class="form-label">Telefone</label>
+                                <input type="tel" class="form-control" id="telefone">
+                            </div>
+                            <div class="mb-3">
+                                <label for="mensagem" class="form-label">Sua Mensagem</label>
+                                <textarea class="form-control" required id="mensagem"></textarea>
+                            </div>
+                            <button type="submit" class="btn-style btn">Enviar</button>
+                        </form>
+                    </div>
+                    <div class="col-md-5 ">
+                        <div class="row mt-md-3 mt-5">
+                            <h3 class="text-center">
+                                <i class="like bi bi-hand-thumbs-up-fill"></i>
+                                Redes sociais</h3>
+                            <ul class="social-links d-flex justify-content-center">
+                                <li class="fs-1 me-5">
+                                    <a href="#">
+                                        <i class="bi bi-facebook"></i>
+                                    </a>
+                                </li>
+                                <li class="fs-1">
+                                    <a href="#">
+                                        <i class="bi bi-instagram"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <script>
+        function fecharMenuHamburguer() {
+            var menu = document.getElementById('menu-navegacao');
+            menu.classList.remove('show');
+        }
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

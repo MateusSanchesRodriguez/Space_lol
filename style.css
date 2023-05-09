@@ -1,0 +1,77 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+.navbar{
+    background-color: #0000CD;
+    font-family: 'Bruno Ace SC', cursive;
+}
+
+#cabecalho .nav .nav-link.active{
+    background-color: #fff;
+    color: #0000CD;
+    border-radius: 10px;
+}
+
+.nav .nav-link,
+.navbar-brand,
+.navbar-brand:hover{
+    color: #fff;
+}
+
+.navbar-toggler{
+    background-color: #fff;
+}
+
+.style-sections-title h1,h2,h3{
+    font-family: 'Bruno Ace SC', cursive;
+}
+
+.style-sections-title{
+    color: #fff;
+}
+.style-sections-title span{
+    color:#0000CD;
+}
+
+#sobre-space-lol{
+    background-color: #0c0c30;
+}
+
+#novas-skins{
+    background-color: #0c0c2a;
+}
+
+#campeoes{
+    background-color: #0c0c30;
+}
+
+.nav-campeoes .nav-link.active{
+    background-color: #0000CD;
+}
+
+#fale-conosco{
+    background-color: #0c0c2a;
+}
+
+.btn-style{
+    background-color: #0000CD;
+    color: #fff;
+}
+
+.btn-style:hover{
+    background-color: #0000cd75;
+    color: #fff;
+}
+
+.social-links li{
+    list-style: none;
+    display: inline;
+}
+
+.social-links a{
+    text-decoration: none;
+}
+.like{
+    color: #0030cd;
+}
